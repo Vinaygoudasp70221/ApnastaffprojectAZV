@@ -1,0 +1,265 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.back-img{
+    background-image: url(Partner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+ 
+}
+.desc{
+    background-color: rgba(250, 235, 215, 0.452);
+   text-align: center;
+   padding-top: 100px;
+   padding-bottom: 20px;
+   font-size: 30px;
+  color: blue;
+  animation: changecolor 10s infinite;
+}
+@keyframes changecolor {
+    0%{
+        color: rgb(10, 245, 167)
+    }
+    25%{
+        color: rgb(7, 113, 152);
+    }
+    50%{
+        color: rgb(3, 3, 82);
+    }
+    100%{
+        color: darkorange;
+    }
+}
+.desc1 h3{
+    padding-bottom: 20px;
+    color: rgb(255, 51, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+
+}
+.desc1{
+background-color: rgba(0, 255, 255, 0.444);
+
+padding-left: 20px;
+padding-right: 20px;
+text-align: center;
+color: rgb(1, 0, 9);
+font-weight: bold;
+}
+
+.info{
+   padding-left: 100px;
+   padding-top: 60px;
+background-color: rgba(240, 255, 255, 0.648);
+   display: flex;
+}
+.info i{
+  font-size: 5rem;
+  padding-left: 15px;
+  text-align: center;
+  padding-inline: 20px;
+ 
+}
+.info p{
+    
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+animation: textcolor 8s infinite;
+font-size: 23px;
+ 
+}
+@keyframes textcolor {
+    0%{
+        color: rgb(255, 55, 0);
+    }
+    25%{
+        color: rgb(15, 3, 1);
+    }
+    50%{
+       color: rgb(59, 244, 12);
+    }
+    100%{
+        color: blue;
+    }
+}
+
+#a {
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+
+}
+
+.a1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(19, 3, 247);
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+   
+
+}
+
+#a1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 217, 255);
+    margin-left: 170px;
+}
+
+.a3 {
+
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    background-color: rgba(248, 251, 252, 0.406);
+}
+
+#a3 {
+    margin-top: 10px;
+    margin-left: 240px;
+    margin-bottom: 10px;
+}
+
+.a2 {
+    color: red;
+}
+
+#a2 {
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 191, 255, 0.017);
+}
+
+.form{
+    margin-left: 550px;
+    margin-top: 40px;
+    background-color: antiquewhite;
+    position: absolute;
+    box-shadow: 0px 0px 8px 4px rgb(9, 9, 9);
+    padding-left: 110px;
+    border: 8px groove rgb(0, 255, 242);
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    animation: glow 5s infinite;
+}
+@keyframes glow {
+    0%{
+        border: 8px groove blue;
+        color: rgb(0, 238, 255);
+    }
+    25%{
+        border: 9px grove rgb(225, 127, 255);
+        color: rgb(0, 255, 17);
+    }
+    50%{
+        border: 9px grove rgb(253, 5, 5);
+        color: rgb(255, 162, 0);
+    }
+    100%{
+        border: 9px grove rgb(231, 243, 3);
+        color: rgb(0, 255, 17);
+    }
+}
+
+.loc {
+    position: absolute;
+}
+
+.Quickl {
+    margin-top: 1%;
+    padding-left: 20px;
+
+}
+
+.info2 {
+    display: flex;
+    text-align: left;
+    width: auto;
+    
+
+}
+
+.info .Quickl {
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 410px;
+    justify-content: center;
+}
+
+.Quickl ul {
+
+    padding: 1px;
+    column-count: 2;
+}
+
+.Quickl h3 {
+    padding: 8px;
+}
+
+.Quickl{
+    position: relative;
+    border: 2px soild ;
+}
+.Quickl input{
+    padding: 2px;
+     border-radius: 5px;
+}
+.apnalog{
+    margin-left:33%;
+    width: 25px;
+    
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+   display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+.apnalog a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 15px;
+    
+    display: flex;
+    text-decoration: none;
+    
+}
+
+
+.apna{
+    
+ background-color: hwb(78 68% 11% / 0.285);
+    
+}
+.app{
+    
+    padding-top: 450px;
+}
+
+    
+.Home img{
+    width: 60px;
+    
+   margin-top: 10px;margin-right: 10px;
+
+}
+.Home a{
+    
+    margin-left: 20px;
+    color: rgb(0, 38, 255);
+    text-orientation: sideways-right;
+    margin-top: -100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px rgb(14, 13, 13);
+}
+

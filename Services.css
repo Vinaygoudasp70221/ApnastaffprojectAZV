@@ -1,0 +1,223 @@
+.Head{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 10px groove blue;
+    text-align: center;
+    background-color: aqua;
+    animation: head 5s infinite;
+    margin: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    
+}
+@keyframes head {
+    0%{
+        border:5px groove rgb(0, 221, 255); 
+        background-color: rgba(0, 255, 255, 0.676);
+        box-shadow:10px 10px 10px rgba(26, 6, 244, 0.939);
+        
+    }
+25%{
+    border:5px solid rgb(255, 102, 0); 
+    background-color: rgba(0, 132, 255, 0.428);
+    box-shadow:10px 10px 10px  rgba(55, 0, 255, 0.428);
+        
+}
+ 
+50%{
+    border:5px groove rgb(0, 0, 255); 
+    background-color:  rgba(243, 12, 139, 0.576);
+    box-shadow:10px 10px 10px   rgba(12, 54, 243, 0.655);
+        
+}
+75%{
+    border:5px solid rgb(255, 102, 0); 
+    background-color: rgba(22, 183, 223, 0.428);
+    box-shadow:10px 10px 10px rgba(0, 7, 14, 0.428);
+        
+}
+100%{
+    border:5px groove rgb(255, 102, 0); 
+    background-color: rgba(94, 159, 220, 0.428);
+    box-shadow:10px 10px 10px  rgba(26, 6, 244, 0.939);
+        
+}
+}
+.main{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    columns: 3;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #010f0bc0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    display: flex;
+}
+.container{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+
+}
+.box{
+   margin: 35px;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background:black ;
+    box-shadow: 0 30px 30px rgba(0, 0, 255, 0.973);
+}
+.box .imgbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.box .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.box:hover .imgbox img{
+    opacity: 0;
+
+}
+.box .content{
+    position: absolute;
+    bottom: 20px;
+    left:10%;
+    width: 80%;
+    height: 60px;
+    background: rgba(255, 235, 205, 0.593);
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px ;
+    box-sizing: border-box;
+}
+.box:hover .content{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-image: url(house\ hold\ work1.jpg);
+    overflow-y: scroll;
+
+}
+.box .content h3{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+
+}
+.box .content p{
+    margin: 10px 0 0;
+    padding: 0;
+    line-height: 1em;
+    transition: 0.5s;
+    opacity:0 ;
+    text-align: justify;
+}
+.box:hover .content p{
+    opacity: 1;
+    transition-delay:0.4s ;
+}
+
+.loc {
+    position: absolute;
+}
+
+.Quickl {
+    margin-top: 5%;
+    
+
+}
+
+.info {
+    display: flex;
+    text-align: left;
+    width: auto;
+
+}
+
+.info .Quickl {
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 410px;
+    justify-content: center;
+}
+
+.Quickl ul {
+
+    padding: 1px;
+    column-count: 2;
+}
+
+.Quickl h3 {
+    padding: 8px;
+}
+
+.Quickl{
+    position: relative;
+    border: 2px soild ;
+}
+.Quickl input{
+    padding: 2px;
+     border-radius: 5px;
+}
+.apnalog{
+    margin-left:33%;
+    width: 25px;
+    
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+   display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+.apnalog a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 15px;
+    
+    display: flex;
+    text-decoration: none;
+    
+}
+
+
+.apna{
+    
+ background-color: hwb(78 68% 11% / 0.285);
+    
+}
+
+.Home img{
+    width: 60px;
+    
+   margin-top: 10px;margin-right: 10px;
+
+}
+.Home a{
+    
+    margin-left: 20px;
+    color: rgb(0, 38, 255);
+    text-orientation: sideways-right;
+    margin-top: -100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px rgb(14, 13, 13);
+}
+

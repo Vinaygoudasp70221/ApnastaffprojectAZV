@@ -1,0 +1,210 @@
+body {
+    background-image: url(disc.jpg);
+    height: 100vh;
+    background-position: center;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.back {
+
+    background-color: rgba(242, 238, 238, 0.931);
+    height: 120vh;
+
+    background-size: cover;
+    margin-top: 15%;
+    width: 1200px;
+    margin-left: 10%;
+    font-size: 18px;
+}
+
+.back p a {
+    color: rgb(132, 0, 255);
+    text-decoration: none;
+}
+
+.heading {
+    background-color: rgba(255, 235, 205, 0.532);
+    height: 100px;
+    margin-top: 10%;
+    margin-left: 17.2%;
+    margin-bottom: -15%;
+    width: 1000px;
+}
+
+.back div i {
+    margin-left: -35px;
+    margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    font-size: 50px;
+}
+
+.back p {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.back h3 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 23px;
+
+}
+
+.heading h1 {
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+
+}
+
+.loc {
+    position: absolute;
+}
+
+.Quickl {
+    margin-top: 5%;
+
+
+}
+
+.info {
+    display: flex;
+    text-align: left;
+    width: auto;
+
+}
+
+.info .Quickl {
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 410px;
+    justify-content: center;
+}
+
+.Quickl ul {
+
+    padding: 1px;
+    column-count: 2;
+}
+
+.Quickl h3 {
+    padding: 8px;
+}
+
+.Quickl {
+    position: relative;
+    border: 2px soild;
+}
+
+.Quickl input {
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.apnalog {
+    margin-left: 33%;
+    width: 25px;
+
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+
+.apnalog a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 15px;
+
+    display: flex;
+    text-decoration: none;
+
+}
+
+
+.apna {
+   
+    background-color: hwb(78 68% 11% / 0.882);
+
+}
+.in{
+ 
+ 
+    display: flex;
+}
+.in{
+    margin-left: 50px;
+    
+    width: 300px;
+    height: 45px;
+   padding: auto;
+    align-items: center;
+    
+}
+.in .abt{
+   margin-top: 8px;
+   margin-left: 8px;
+ margin-bottom: 5px;
+   border: 2px solid blue;
+   text-decoration: none;
+  font-weight: bold;
+
+   
+}
+.in .abt:hover{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 242, 240);
+    box-shadow: 5px 5px 5px rgb(4, 232, 244);
+}
+
+.in .abt a{
+    text-decoration: none;
+}
+.in .cntus {
+    margin-top: 8px;
+   margin-left: 60px;
+   border: 2px solid blue;
+   text-decoration: none;
+   margin-bottom: 5px;
+ 
+}
+.in .cntus:hover{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       background-color: rgb(241, 242, 240);
+       box-shadow: 5px 5px 5px rgb(4, 232, 244);
+   }
+.in .cntus a{
+    text-decoration: none;
+}
+.step1{
+    line-height: 1.5em;
+    font-weight: bolder;
+}
+.step1 a{
+    text-decoration: none;
+}
+
+
+
+.Home img{
+    width: 60px;
+    
+   margin-top: 10px;margin-right: 10px;
+
+}
+.Home a{
+    
+    margin-left: 20px;
+    color: rgb(0, 38, 255);
+    text-orientation: sideways-right;
+    margin-top: -100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px rgb(14, 13, 13);
+}

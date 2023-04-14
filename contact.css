@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.back-img{
+    background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+    
+}
+
+.cont{
+    margin-top: 100px;
+    display:flex ;
+    width: 800px;
+    height: 380px;
+    background-color: rgba(195, 0, 255, 0.326);
+    padding-left: 10px;
+    margin-left: 110px;
+    
+
+}
+.descr{
+    padding-left: 10px;
+    width: 500px;
+    height: 300px;
+   
+}
+.feedback{
+    padding: 20px;
+   width: 500px;
+   margin-left:60px;
+}
+.feedback input {
+  padding: 3px;
+  height: 30px;
+  
+}
+.cleanimg{
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+    float: right;
+   margin-top: -380px;
+   margin-right: 50px;
+}
+.cleanimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.TEXT{
+    margin-top: 50px;
+    margin-bottom: -80px;
+    padding-left: 300px;
+    text-align: center,auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.loc {
+    position: absolute;
+}
+
+.Quickl {
+    margin-top: 5%;
+}
+
+.info {
+    
+    
+    display: flex;
+    text-align: left;
+    background-color: rgba(32, 160, 211, 0.272);
+
+}
+
+.info .Quickl {
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 410px;
+    justify-content: center;
+}
+
+.Quickl ul {
+
+    padding: 1px;
+    column-count: 2;
+}
+
+.Quickl h3 {
+    padding: 8px;
+}
+
+.Quickl{
+    position: relative;
+    border: 2px soild ;
+}
+.Quickl input{
+    padding: 2px;
+     border-radius: 5px;
+}
+.apnalog{
+    margin-left:33%;
+    width: 25px;
+
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+   display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+.apnalog a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 15px;
+    display: flex;
+    text-decoration: none;
+    
+}
+
+
+.apna{
+ background-color: hwb(78 68% 11% / 0.285);
+}
+
+
+.Home img{
+    width: 60px;
+    
+   margin-top: 10px;margin-right: 10px;
+
+}
+.Home a{
+    
+    margin-left: 20px;
+    color: rgb(0, 38, 255);
+    text-orientation: sideways-right;
+    margin-top: -100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px rgb(14, 13, 13);
+}

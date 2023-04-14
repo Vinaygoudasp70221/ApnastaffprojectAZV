@@ -1,0 +1,178 @@
+body{
+    background-image: url(blue-background.jpg);
+    height: 100vh;
+    background-position: center;
+    
+    margin: 0px;
+    padding: 0px;
+}
+.back
+{
+    background-image: url(clistockphoto-1312439994-170667a.jpg);
+    background-color: rgba(0, 255, 255, 0.998);
+   height: 170vh;
+
+   background-size: cover;
+    margin-top: 15%;
+    width: 1200px;
+    margin-left: 10%;
+}
+.heading{
+    background-color: rgba(30, 43, 229, 0.396);
+    height: 100px;
+    margin-top: 15%;
+    margin-left: 17.2%;
+    margin-bottom: -15%;
+    width: 1000px;
+}
+.step1{
+    background-color: antiquewhite;
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 5%;
+   margin-bottom: 30px;
+ overflow: hidden;
+ border: 5px solid;
+}
+
+.step2{
+    padding: 5px;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 700px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-bottom: 30px;
+}
+
+.step3{
+  margin-top: 290px;
+   margin-left:-1100px;
+   
+    align-content: center;
+    color: aliceblue;
+    font-size: 40px;
+
+    
+}
+.group{
+    display: flex;
+}
+.vds{
+    display: flex;
+    flex-flow: row;
+    transform: rotate(360deg);
+}
+.back div i{
+margin-left: -35px;
+margin-top: 20px;
+    height: 20px;
+    width: 20px;
+    font-size: 50px;
+}
+.back p{
+    font-size: 23px;
+    padding-left: 5px;
+}
+
+.back h3{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 23px;
+    
+}
+
+.heading h1{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+   
+}
+
+.loc {
+    position: absolute;
+}
+
+.Quickl {
+    margin-top: 5%;
+    
+
+}
+
+.info {
+    display: flex;
+    text-align: left;
+    width: auto;
+
+}
+
+.info .Quickl {
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 410px;
+    justify-content: center;
+}
+
+.Quickl ul {
+
+    padding: 1px;
+    column-count: 2;
+}
+
+.Quickl h3 {
+    padding: 8px;
+}
+
+.Quickl{
+    position: relative;
+    border: 2px soild ;
+}
+.Quickl input{
+    padding: 2px;
+     border-radius: 5px;
+}
+.apnalog{
+    margin-left:33%;
+    width: 25px;
+    
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+   display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+.apnalog a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 15px;
+    
+    display: flex;
+    text-decoration: none;
+    
+}
+
+
+.apna{
+    margin-top: -150px;
+ background-color: hwb(78 68% 11% / 0.285);
+    
+}
+
+.Home img{
+    width: 60px;
+    
+   margin-top: 10px;margin-right: 10px;
+
+}
+.Home a{
+    
+    margin-left: 20px;
+    color: rgb(0, 38, 255);
+    text-orientation: sideways-right;
+    margin-top: -100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px rgb(14, 13, 13);
+}

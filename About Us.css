@@ -1,0 +1,132 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  
+}
+.back-img{
+    background-image: url(cleaning-services-1024x682.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    margin-top: -50px;
+}
+
+.heading{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.img{
+   margin-left: 280px;
+}
+.desc{
+    padding-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    
+}
+.desc1{
+    padding-left: 8px;
+    background-color:rgba(255, 255, 255, 0.562);
+    font-weight: bold;
+   
+}
+.desc1 b{
+    
+    color: blue;
+    font-size: 20px;
+}
+
+.loc {
+    position: absolute;
+}
+
+.Quickl {
+    margin-top: 5%;
+    
+
+}
+
+.info {
+    display: flex;
+    text-align: left;
+    width: auto;
+
+}
+
+.info .Quickl {
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 410px;
+    justify-content: center;
+}
+
+.Quickl ul {
+
+    padding: 1px;
+    column-count: 2;
+}
+
+.Quickl h3 {
+    padding: 8px;
+}
+
+.Quickl{
+    position: relative;
+    border: 2px soild ;
+}
+.Quickl input{
+    padding: 2px;
+     border-radius: 5px;
+}
+.apnalog{
+    margin-left:33%;
+    width: 25px;
+    
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+   display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+.apnalog a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 15px;
+    
+    display: flex;
+    text-decoration: none;
+    
+}
+
+
+.apna{
+    
+ background-color: hwb(78 68% 11% / 0.285);
+    
+}
+
+
+.Home img{
+    width: 60px;
+    
+   margin-top: 10px;margin-right: 10px;
+
+}
+.Home a{
+    
+    margin-left: 20px;
+    color: rgb(0, 38, 255);
+    text-orientation: sideways-right;
+    margin-top: -100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px rgb(14, 13, 13);
+}
+
+

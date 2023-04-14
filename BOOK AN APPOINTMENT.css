@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(appointment.jpg);
+    background-size: cover;
+}
+
+.back-img {
+    
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#A1 {
+    border: 2.5px groove rgb(0, 213, 255);
+    height: 300px;
+    width: 450px;
+}
+
+#Bt {
+    width: 500px;
+    height: 50px;
+    font-style: oblique;
+    padding-left: 80px;
+    background-color: rgba(175, 234, 254, 0.639);
+    background-image: url(shine-icon.jpg);
+    background-position: center;
+    background-position: initial;
+}
+
+#A {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    border: 0px groove;
+
+}
+
+.form {
+    background-color: rgba(219, 231, 234, 0.225);
+    height: 300px;
+    border: 2px solid rgb(0, 213, 255);
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+input#Submit {
+    width: 100px;
+    padding: 2px;
+    background-color: rgba(0, 213, 255, 0.418);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+    margin-left: 170px;
+}
+
+#a {
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+
+}
+
+.a1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(19, 3, 247);
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+
+}
+
+#a1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 217, 255);
+    margin-left: 170px;
+}
+
+.a3 {
+
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    background-color: rgba(248, 251, 252, 0.406);
+}
+
+#a3 {
+    margin-top: 10px;
+    margin-left: 240px;
+    margin-bottom: 10px;
+}
+
+.a2 {
+    color: red;
+}
+
+#a2 {
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 191, 255, 0.017);
+}
+
+.loc {
+    position: absolute;
+}
+
+.Quickl {
+    margin-top: 5%;
+    
+
+}
+
+.info {
+    display: flex;
+    text-align: left;
+    width: auto;
+
+}
+
+.info .Quickl {
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 20px;
+    width: 410px;
+    justify-content: center;
+}
+
+.Quickl ul {
+
+    padding: 1px;
+    column-count: 2;
+}
+
+.Quickl h3 {
+    padding: 8px;
+}
+
+.Quickl{
+    position: relative;
+    border: 2px soild ;
+}
+.Quickl input{
+    padding: 2px;
+     border-radius: 5px;
+}
+.apnalog{
+    margin-left:33%;
+    width: 25px;
+    
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+   display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+.apnalog a{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-inline: 15px;
+    
+    display: flex;
+    text-decoration: none;
+    
+}
+
+
+.apna{
+    
+ background-color: hwb(78 68% 11% / 0.285);
+    
+}
+
+
+.Home img{
+    width: 60px;
+    
+   margin-top: 10px;margin-right: 10px;
+
+}
+.Home a{
+    
+    margin-left: 20px;
+    color: rgb(0, 38, 255);
+    text-orientation: sideways-right;
+    margin-top: -100px;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 10px 10px rgb(14, 13, 13);
+}
