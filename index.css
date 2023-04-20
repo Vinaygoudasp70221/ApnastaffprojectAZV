@@ -1,0 +1,86 @@
+body{
+    background-image: url(pxfuel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.Heading{
+    text-align: center;
+    justify-content: center;
+    margin-top: -70px;
+    color: transparent;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*for back ground animation*/
+-webkit-text-stroke: 1px whitesmoke;
+background-image: url(clorback.jpg);
+overflow: hidden;
+-webkit-background-clip: text;
+animation: back 20s linear infinite;
+text-shadow: 10px 10px 10px black;
+   
+}
+@keyframes back {
+    
+    100%{
+        background-position: 2000px 0;
+    }
+    
+}
+
+.subhead{
+    font-size: 30px;
+    color: rgba(252, 252, 254, 0.882);
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    margin-top: -105px;
+    text-shadow: 10px 10px 10px black;
+   
+}
+.infor {
+ display: flex;
+ margin-inline: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    margin-top: 280px;
+}
+.infor button{
+    padding: 5px;
+    width: 100px;
+    margin: 5px;
+    font-weight: bolder;
+    background:transparent;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 18px;
+    
+}
+.infor button:hover{
+    background-color: rgba(49, 151, 229, 0.329);
+    border: 3px groove blue;
+}
+.explore{
+    text-align: center;
+    justify-content: center;
+}
+.explore button{
+    padding: 5px;
+    width: 100px;
+    margin: 5px;
+    font-weight: bolder;
+    background:transparent;
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 200px;
+    color: rgb(6, 120, 251);
+    box-shadow: -10px -10px 20px black;
+
+}
+.explore span{
+    color: antiquewhite;
+}
